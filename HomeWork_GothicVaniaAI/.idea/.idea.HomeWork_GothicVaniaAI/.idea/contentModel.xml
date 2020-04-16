@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\User\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\User\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_HomeWork_GothicVaniaAI.156840443.00" t="ExcludeRecursive" />
+    <e p="D:\Users\User\Documents\GitHub\UnityHWGothicVaniaAI\HomeWork_GothicVaniaAI" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Gothicvania Cemetery Artwork" t="Include">
+          <e p="about.txt" t="Include" />
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="AI" t="Include">
+            <e p="AIAttackDeciderState.cs" t="Include" />
+            <e p="AICrouchState.cs" t="Include" />
+            <e p="AIDeciderState.cs" t="Include" />
+            <e p="AIJumpKickState.cs" t="Include" />
+            <e p="AIJumpState.cs" t="Include" />
+            <e p="AIMoveToPlayerState.cs" t="Include" />
+            <e p="AIPunchState.cs" t="Include" />
+            <e p="AIRetreatState.cs" t="Include" />
+            <e p="AIWaitState.cs" t="Include" />
+          </e>
+          <e p="Controlls.cs" t="Include" />
+          <e p="DieState.cs" t="Include" />
+          <e p="Health.cs" t="Include" />
+          <e p="MovementController.cs" t="Include" />
+          <e p="Player" t="Include">
+            <e p="MonkCrouchKickingState.cs" t="Include" />
+            <e p="MonkCrouchState.cs" t="Include" />
+            <e p="MonkFallState.cs" t="Include" />
+            <e p="MonkIdleWalkBlendState.cs" t="Include" />
+            <e p="MonkJumpKickState.cs" t="Include" />
+            <e p="MonkJumpState.cs" t="Include" />
+            <e p="MonkPunchState.cs" t="Include" />
+          </e>
+          <e p="StateMachineUtil.cs" t="Include" />
+        </e>
+      </e>
+      <e p="HomeWork_GothicVaniaAI.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
