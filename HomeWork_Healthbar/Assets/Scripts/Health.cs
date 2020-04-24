@@ -10,6 +10,8 @@ public class Health : MonoBehaviour {
 	[SerializeField]
 	private int health = 100;
 
+	public HealthBar healthBar;
+
 	private Animator animator;
 	public GameObject cross;
 	
@@ -21,6 +23,8 @@ public class Health : MonoBehaviour {
 		animator = GetComponent<Animator>();
 		animator.SetInteger("Health", maxHealth);
 		health = maxHealth;
+		
+		healthBar.SetMaxHealth(maxHealth);
 	}
 
 	public int GetMaxHP()
@@ -58,6 +62,10 @@ public class Health : MonoBehaviour {
 		health = Max(health - damage, 0);
 		animator.SetInteger("Health", health);
 		animator.SetTrigger("TookDamage");
+		
+		healthBar.SetHealth(health - damage);
+		Debug.Log("Took Damage");
+		
 	}
 
 	private void OnTriggerEnter2D(Collider2D collision) {
